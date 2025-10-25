@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2" cellpadding="20" cellspacing="0" align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <form action="#" method="post" align="center">
+                    <h2>Hotel Room Booking Form</h2>
+                    <label for="Name"> Full Name:</label>
+                    <input type="text" id="Name" name="Name" name="Name">
+                    <br><br>
+                    <label for="Email"> Email:</label>
+                    <input type="email" id="Email" name="Email" name="Email">
+                    <br><br>
+                    <label for="Phone"> Phone:</label>
+                    <input type="tel" id="Phone" name="Phone" name="Phone">
+                    <br><br>
+                    <label for="Checkin"> Check-in Date:</label>
+                    <input type="date" id="Checkin" name="Checkin" required>
+                    <br><br>
+                    <label for="Checkout"> Check-out Date:</label>
+                    <input type="date" id="Checkout" name="Checkout" required>   
+                    <br><br>
+                    <label for="Roomtype"> Room Type:</label>
+                    <select id="Roomtype" name="Roomtype" name="Roomtype">
+                        <option value="single">Single Room </option>
+                        <option value="double">Double Room</option>
+                        <option value="suite"> Suite </option>
+                    </select>
+                    <br><br>
+                    <label for="Guests"> Number of Guests:</label>
+                    <input type="number" id="Guests" name="Guests"name="Guests" min="1">
+                    <br><br>
+                    <label for="Requests"> Special Requests:</label><br>
+                    <textarea id="Requests" name="Requests" name="Requests" rows="4" cols="50"></textarea><br><br>
+                    <input type="submit" value="Book Now">
+                    <input type="reset" value="Reset Form">
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
