@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+.box {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color:whi;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#red {
+    background-color:red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.side {
+    padding: 15px;
+    border: 1pxsolid #ddd;
+}
+
+hr {
+    margin:00px ;
+}
