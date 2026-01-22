@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+
+#cotainer{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 500px;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+h2{
+    background-color: white;
+    display:inline;
+    position: relative;
+    left: 600px;
+    
+}
