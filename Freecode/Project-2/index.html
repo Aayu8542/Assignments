@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Survey</title>
+</head>
+<body>
+
+    <!-- Page Title -->
+    <h1 id="title">Student Feedback Survey</h1>
+
+    <!-- Description -->
+    <p id="description">
+        This short survey helps us understand your learning experience.
+        Please fill it honestly.
+    </p>
+
+    <!-- Survey Form -->
+    <form id="survey-form">
+
+        <!-- Name Field -->
+        <label id="name-label" for="name">Name</label><br>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            required
+        ><br><br>
+
+        <!-- Email Field -->
+        <label id="email-label" for="email">Email</label><br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+        ><br><br>
+
+        <!-- Number Field -->
+        <label id="number-label" for="number">Age</label><br>
+        <input
+            type="number"
+            id="number"
+            name="age"
+            placeholder="Enter your age"
+            min="10"
+            max="60"
+        ><br><br>
+
+        <!-- Dropdown -->
+        <label for="dropdown">Current Role</label><br>
+        <select id="dropdown" name="role">
+            <option value="">Select your role</option>
+            <option value="student">Student</option>
+            <option value="professional">Working Professional</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <p>How did you hear about us?</p>
+        <input type="radio" name="source" value="youtube"> YouTube<br>
+        <input type="radio" name="source" value="friends"> Friends<br>
+        <input type="radio" name="source" value="social"> Social Media<br><br>
+
+        <!-- Checkboxes -->
+        <p>What topics are you interested in?</p>
+        <input type="checkbox" name="topics" value="html"> HTML<br>
+        <input type="checkbox" name="topics" value="css"> CSS<br>
+        <input type="checkbox" name="topics" value="javascript"> JavaScript<br>
+        <input type="checkbox" name="topics" value="backend"> Backend Development<br><br>
+
+        <!-- Textarea -->
+        <p>Additional Comments</p>
+        <textarea
+            name="comments"
+            placeholder="Write your feedback here..."
+            rows="4"
+            cols="40">
+        </textarea><br><br>
+
+        <!-- Submit Button -->
+        <button id="submit" type="submit">Submit Survey</button>
+
+    </form>
+
+</body>
+</html>
